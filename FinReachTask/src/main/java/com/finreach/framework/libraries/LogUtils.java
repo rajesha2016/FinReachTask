@@ -15,6 +15,10 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
+/**
+ * @author r.moharana logging activities in the framework creates a new folder
+ *         in project directory after execution with the execution date
+ */
 public class LogUtils {
 
 	private Logger logger;

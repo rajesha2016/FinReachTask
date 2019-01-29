@@ -6,6 +6,12 @@ import com.finreach.pageobjects.CRUDPage;
 import com.finreach.pageobjects.HomePage;
 import com.finreach.pageobjects.LoginPage;
 
+/**
+ * @author r.moharana This class helps to create every page object. If
+ *         applications have multiple step definitions file then with the help
+ *         of this class we can avoid object creation again and again in step
+ *         definition files
+ */
 public class PageObjectLibrary {
 
 	private WebDriver driver;

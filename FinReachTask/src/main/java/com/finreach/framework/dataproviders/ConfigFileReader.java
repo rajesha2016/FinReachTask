@@ -9,7 +9,11 @@ import java.util.Properties;
 import com.finreach.framework.enums.DriverType;
 import com.finreach.framework.enums.EnvironmentType;
 
-
+/**
+ * @author r.moharana This class helps to get properties file data and supply to
+ *         UI scripts
+ *
+ */
 public class ConfigFileReader {
 
 	private Properties properties;

@@ -4,7 +4,8 @@ import com.finreach.framework.libraries.PageObjectLibrary;
 import com.finreach.framework.libraries.WebDriverLibrary;
 
 /**
- * @author r.moharana
+ * @author r.moharana This class initialize WebDriverLibrary & PageObjectLibrary
+ *         which is used in stepdefinition class
  *
  */
 public class TestContext {

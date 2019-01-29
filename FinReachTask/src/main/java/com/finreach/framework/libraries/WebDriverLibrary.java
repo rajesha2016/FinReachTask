@@ -12,6 +12,10 @@ import com.finreach.framework.enums.EnvironmentType;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+/**
+ * @author r.moharana This class is the webdriver factory, it return the driver
+ *         type(local or remote) based on the value provided in properties file
+ */
 public class WebDriverLibrary {
 
 	private static WebDriver driver;
